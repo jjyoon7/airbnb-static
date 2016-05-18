@@ -1,0 +1,42 @@
+/* Card design */
+.card {
+    height: 250px;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    background-size: cover !important;
+    color: white;
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card-category {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+}
+
+.card-description {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.card-user {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.avatar-large {
+    width: 50px;
+}
+.avatar {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.pad-around{
+  padding: 100px;
+  margin-top: 30px;
+}
