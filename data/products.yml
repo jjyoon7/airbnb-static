@@ -1,5 +1,4 @@
 - name: MC
   image: mc.png
-
-- name: g
+- name: G
   image: g.png

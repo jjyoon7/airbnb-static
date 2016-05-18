@@ -1,7 +1,7 @@
 <ul class="list-inline text-center">
   <% data.products.each do |mate| %>
     <li>
-      <% image_tag mate.image, class: "img-circle" %>
+      <%= image_tag mate.image, class: "img-circle mate-size" %>
         <h3><%= mate.name.capitalize %></h3>
     </li>
   <% end %>
